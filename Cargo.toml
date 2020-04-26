@@ -1,0 +1,13 @@
+[package]
+name = "gmcl_mavled_win64"
+version = "0.1.0"
+authors = ["Mavain <gyv313@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+glua-sys = { git = "https://github.com/SpiralP/rust-glua-sys" }
